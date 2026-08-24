@@ -9,6 +9,104 @@ access (the `INTERNET` permission is explicitly stripped from the manifest).
 
 ---
 
+## All features
+
+### PDF — Organise
+| # | Tool | What it does |
+|---|------|---------------|
+| 1 | **Merge PDF** | Combine multiple PDFs into one file |
+| 2 | **Split PDF** | Split into single pages or custom ranges (e.g. `1-3,5,7-9`) |
+| 3 | **Remove Pages** | Delete selected pages from a PDF |
+| 4 | **Extract Pages** | Save selected pages as a new PDF |
+| 5 | **Organize Pages** | Reorder pages by drag & drop |
+| 6 | **Insert Pages** | Insert a PDF into another at any position |
+| 7 | **Scan to PDF** | Capture documents with the camera (edge/perspective correction) |
+
+### PDF — Optimize & Convert
+| # | Tool | What it does |
+|---|------|---------------|
+| 8 | **Compress PDF** | Reduce file size (lossless or lossy, DPI/quality controls) |
+| 9 | **Repair PDF** | Fix corrupted or damaged PDFs |
+| 10 | **PDF OCR** | Make scanned PDFs searchable (on-device, ML Kit) |
+| 11 | **Image → PDF** | Convert images into a PDF |
+| 12 | **Word → PDF** | Convert DOCX to PDF |
+| 13 | **Excel → PDF** | Convert XLSX to PDF |
+| 14 | **PowerPoint → PDF** | Convert PPTX to PDF |
+| 15 | **TXT → PDF** | Convert plain text to PDF |
+| 16 | **HTML → PDF** | Convert HTML files to PDF |
+| 17 | **CSV → PDF** | Convert CSV tables to PDF |
+| 18 | **PDF → Image** | Render pages to JPG / PNG / WebP |
+| 19 | **PDF → Word** | Extract content into a DOCX |
+| 20 | **PDF → Excel** | Extract tabular data into XLSX |
+| 21 | **PDF → PowerPoint** | Pages into a PPTX |
+| 22 | **PDF → Text** | Extract all text as TXT |
+| 23 | **PDF → PDF/A** | Convert to archival PDF/A-1b |
+
+### PDF — Edit
+| # | Tool | What it does |
+|---|------|---------------|
+| 24 | **Annotate** | Add text, shapes & freehand marks |
+| 25 | **Watermark** | Stamp text/image across pages (tiled, angled, opacity) |
+| 26 | **Page Numbers** | Add page numbering (format, alignment, skip-first) |
+| 27 | **Crop PDF** | Crop margins or page regions |
+| 28 | **Flatten PDF** | Bake annotations & forms into pages |
+| 29 | **Edit Metadata** | Title, author, subject, keywords, creator |
+| 30 | **Resize Pages** | Change page size (A4 / A5 / A3 / Letter / Legal / B5) |
+| 31 | **Grayscale** | Convert PDF to black & white |
+| 32 | **Stamp** | Add approved / confidential stamps |
+
+### PDF — Security & Forms
+| # | Tool | What it does |
+|---|------|---------------|
+| 33 | **PDF Forms** | Detect, fill & create form fields |
+| 34 | **Password Protect** | Encrypt PDF with a password (AES-256) |
+| 35 | **Unlock PDF** | Remove password protection |
+| 36 | **Sign PDF** | Draw or place your signature |
+| 37 | **Redact PDF** | Black out sensitive content |
+| 38 | **Compare PDFs** | Diff two PDFs visually |
+
+### Image
+| # | Tool | What it does |
+|---|------|---------------|
+| 39 | **Compress** | Shrink image file size (quality / max width) |
+| 40 | **Resize** | Change pixel dimensions |
+| 41 | **Crop** | Cut out a region |
+| 42 | **Rotate / Flip** | Rotate, mirror & transpose |
+| 43 | **Convert Format** | JPG / PNG / WebP / BMP |
+| 44 | **Merge / Collage** | Combine images side by side or in a grid |
+| 45 | **Adjust** | Brightness, contrast, saturation, sharpen |
+| 46 | **Watermark** | Stamp text or logo (position, scale, opacity, tiled) |
+| 47 | **Border / Frame** | Add colored borders & rounded corners |
+| 48 | **Photo Layout** | Passport & ID photo sheets |
+| 49 | **Image OCR** | Extract text from images |
+
+### Office & Files
+| # | Tool | What it does |
+|---|------|---------------|
+| 50 | **Excel → CSV** | Export XLSX sheets as CSV |
+| 51 | **CSV → Excel** | Import CSV into XLSX |
+| 52 | **Excel → Image** | Render sheets to PNG |
+| 53 | **Zip Files** | Compress any files into a ZIP |
+| 54 | **Unzip** | Extract ZIP archives |
+
+---
+
+## App features
+
+### Workflow
+- **Batch mode** — run a single tool across many files in one pass
+  (supported tools are marked batch-capable).
+- **Tool search** — find any tool by name from the Home screen.
+- **Before/After preview** — every result shows a comparison and an output-file
+  list with sizes and saved status.
+- **Open with system apps** — converted/saved files launch the Android
+  "Open with" chooser.
+- **Open in Files app** — jump to the native Android file manager.
+- **Share / Open with** — share-to or open-with from any app (PDF, image,
+  text, office, archive intent filters).
+
+
+
 ## Features
 
 ### Document tools
